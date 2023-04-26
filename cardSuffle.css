@@ -1,0 +1,46 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    width:400px;
+    height:400px;
+    background-color: black;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,50%);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.ele1, .ele2, .ele3, .ele4, .ele5, .ele6, .ele7, .ele8, .ele9
+{
+    width:95%;
+    height:95%;
+    background-color: yellow;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+.btn
+{
+    padding: 10px 20px;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    border: 2px solid yellow;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    right:20%;
+} */
